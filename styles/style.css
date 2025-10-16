@@ -1,56 +1,124 @@
 
-.open-sans-riti {
-  font-family: "Open Sans", sans-serif;
+.inter-riti {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
-*{
-    margin:0px;
-    padding:0px;
+
+
+.raleway-riti {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
-.top{
-    display:flex;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    display: flex;
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
     align-items: center;
     padding-top: 50px;
-     
-    max-width:1140px;
-    gap:auto;
-    
-    
+
+    max-width: 1140px;
+    gap: auto;
+
+
 }
 
-.nav-logo{
-    
+.nav-logo {
+
     font-weight: black;
     font-size: 34px;
-    color:#4E47FF;
+    color: #4E47FF;
 }
-.nav-btn{
+
+.nav-btn {
     background-color: #4E47FF;
-    width:132px;
-    height:48px;
+    font-size: 16px;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
-    color:#FFFFFF;
+    color: #FFFFFF;
+    padding:12px 36px 12px 36px;
 
 }
-.banner{
-    text-align: center;
-    margin-top:100px;
-    
+
+
+.banner {
+
+    margin-top: 158px;
     padding-bottom: 152px;
-    
+    text-align: center;
+
 }
-.header{
+
+
+
+.banner,h1{
+    margin-bottom: 37px;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+
+.header {
     max-width: 1440px;
     max-height: 698px;
     background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.action-div{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 98px;
+    gap:220px;
+    align-items: center;
+    margin-left: 141px;
+    margin-right: 159px;
+    padding-top: 62.5px;
+    padding-bottom: 62.5px;
+    /* width:1140px;
+    height:328; */
+}
+/* .text{
+    max-width:517px;
+    max-height: 203px;
+    
+} */
+.text,p{
+    /* width: 517px;
+    height: 60px; */
+    margin-bottom: 23px;
+    font-size: 24px;
+    font-weight: 500px;
+    color:rgba(37,36,50,0.5);
+}
+.text,h2{
+    /* width: 517px;
+    height: 49px; */
+    margin-bottom: 23px;
+    color:#252432;
+    font-size: 42px;
+    font-weight: 700;
+}
+.text,button{
+    /* width: 229px;
+    height: 48px; */
+    padding:12px 36px 12px 36px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.action-div,img{
+    border-radius:48px;
+   
 }
