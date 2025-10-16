@@ -30,7 +30,7 @@
     align-items: center;
     padding-top: 50px;
 
-    max-width: 1140px;
+    max-width: 1440px;
     gap: auto;
 
 
@@ -178,8 +178,7 @@
     padding: 24px 24px 24px 24px;
     text-align: left;
     background-color: #FFFFFF;
-    /* width: 366.67px;
-    height: 243px; */
+    
     font-size:20px;
 }
 .card-section{
@@ -208,6 +207,26 @@ span{
     font-size: 16px;
     font-weight: 400px;
     color:rgba(179, 179, 179, 1);
+}
+.photo-section{
+    text-align: center;
+    width:1140px;
+    height: 696.7px;
+    background-color: #FFFFFF;
+    margin:137px 151px 0px 149px;
+}
+.photo-head{
+    padding: 71px 312px 0px 312px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.photo-text{
+    font-size: 16px;
+    font-weight: 400px;
+    color:rgba(0,0,0,0.5);
+    margin-bottom: 20px;
 }
 
 
