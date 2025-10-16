@@ -17,7 +17,8 @@
     margin-left: 150px;
     margin-right: 150px;
     align-items: center;
-    margin-top:50px ;
+    padding-top: 50px;
+     
     max-width:1140px;
     gap:auto;
     
@@ -37,4 +38,19 @@
     border: none;
     border-radius: 5px;
     color:#FFFFFF;
+
+}
+.banner{
+    text-align: center;
+    margin-top:100px;
+    
+    padding-bottom: 152px;
+    
+}
+.header{
+    max-width: 1440px;
+    max-height: 698px;
+    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
