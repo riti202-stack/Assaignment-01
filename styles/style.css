@@ -1,0 +1,40 @@
+
+.open-sans-riti {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    margin-top:50px ;
+    max-width:1140px;
+    gap:auto;
+    
+    
+}
+
+.nav-logo{
+    
+    font-weight: black;
+    font-size: 34px;
+    color:#4E47FF;
+}
+.nav-btn{
+    background-color: #4E47FF;
+    width:132px;
+    height:48px;
+    border: none;
+    border-radius: 5px;
+    color:#FFFFFF;
+}
