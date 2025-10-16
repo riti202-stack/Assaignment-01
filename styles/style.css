@@ -2,7 +2,7 @@
 .inter-riti {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 0;
   font-style: normal;
 }
 
@@ -10,14 +10,17 @@
 .raleway-riti {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 0;
   font-style: normal;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    background-color: rgba(78, 71, 255, 0.01);
 }
+
+/* navbar design */
 
 .top {
     display: flex;
@@ -35,7 +38,7 @@
 
 .nav-logo {
 
-    font-weight: black;
+    font-weight: bold;
     font-size: 34px;
     color: #4E47FF;
 }
@@ -51,7 +54,7 @@
 
 }
 
-
+/* banner design */
 .banner {
 
     margin-top: 158px;
@@ -76,24 +79,26 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* main body design */
 .action-div{
     display:flex;
     justify-content: space-between;
-    margin-top: 98px;
+    /* margin-top: 98px; */
     gap:220px;
     align-items: center;
     margin-left: 141px;
     margin-right: 159px;
     padding-top: 62.5px;
     padding-bottom: 62.5px;
-    /* width:1140px;
-    height:328; */
+    width:1140px;
+    height:328;
+    margin-bottom: 120px;
 }
-/* .text{
+.text{
     max-width:517px;
     max-height: 203px;
     
-} */
+}
 .text,p{
     /* width: 517px;
     height: 60px; */
@@ -102,7 +107,7 @@
     font-weight: 500px;
     color:rgba(37,36,50,0.5);
 }
-.text,h2{
+.text,h3{
     /* width: 517px;
     height: 49px; */
     margin-bottom: 23px;
@@ -122,3 +127,87 @@
     border-radius:48px;
    
 }
+
+
+/* main part productive */
+.users{
+    display: flex;
+    justify-content: space-evenly;
+}
+.productive{
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    width: 1140px;
+    height: 306px;
+    margin-left: 141px;
+    margin-right: 159px;
+}
+.productive,p{
+    font-size: 38px;
+    font-weight: bold;
+    color:#252432;
+
+}
+.num{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+}
+
+
+/* card */
+.card-pic{
+    display: flex;
+    /* justify-content:space-between; */
+    gap:6px;
+    text-align: left;
+    /* align-items: center; */
+    
+    
+}
+.title{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+}
+.single-card{
+    border-radius: 5px;
+    padding: 24px 24px 24px 24px;
+    text-align: left;
+    background-color: #FFFFFF;
+    /* width: 366.67px;
+    height: 243px; */
+    font-size:20px;
+}
+.card-section{
+    margin: 137px 151px 137px 159px;
+    width:1140px;
+    height: 342px;
+
+}
+.font-title{
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+.para-font{
+    font-size: 16px;
+    font-weight: 400px;
+    color:rgba(30, 30, 30, 1);
+}
+.card-pic-txt{
+    font-size: 16px;
+    font-weight: 500px;
+    color:rgba(117, 117, 117, 1);
+    
+}
+span{
+    font-size: 16px;
+    font-weight: 400px;
+    color:rgba(179, 179, 179, 1);
+}
+
+
