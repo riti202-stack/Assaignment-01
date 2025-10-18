@@ -59,6 +59,10 @@
     padding:12px 36px 12px 36px;
 
 }
+button:hover{
+    background-color: yellow;
+    color: black;
+}
 
 /* banner design */
 .banner {
