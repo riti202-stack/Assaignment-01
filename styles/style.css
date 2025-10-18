@@ -2,7 +2,7 @@
 .inter-riti {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 0;
+  font-weight:400px;
   font-style: normal;
 }
 
@@ -10,7 +10,7 @@
 .raleway-riti {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 0;
+  font-weight: 400px;
   font-style: normal;
 }
 
@@ -37,8 +37,9 @@
 
 
 }
-#main{
-    background-color:#D6DDED;
+.bg{
+    background-color: #e6e6e6;
+    width: 1440px;
 }
 
 .nav-logo {
@@ -142,10 +143,11 @@
 .productive{
     text-align: center;
     background-color: rgba(78, 71, 255, 0.1);
-    width: 1140px;
-    height: 306px;
+    /* width: 1140px;
+    height: 306px; */
     margin-left: 141px;
     margin-right: 159px;
+    padding: 50px 142px 50px 142px;
 }
 .productive,p{
     font-size: 38px;
@@ -267,11 +269,12 @@ span{
     height: 137px;
     border: none;
     border-radius: 10px;
+    
+}
+.color{
     background-color: #FFFFFF;
 }
- #input{
-    background-color: #FFFFFF;
-}
+
 
 input::placeholder{
     padding:5px 20px 5px 20px;
@@ -280,7 +283,7 @@ input::placeholder{
     color:rgba(0,0,0,0.5);
 }
 textarea::placeholder{
-    padding:5px 20px 5px 20px;
+    padding:20px 0px 0px 20px;
     font-size: 20px;
     font-weight: 400px;
     color:rgba(0,0,0,0.5);
@@ -293,28 +296,40 @@ textarea::placeholder{
     color:#4E47FF;
 }
 .footer{
-    text-align: center;
+    
     background-color: #FFFFFF;
     text-align: center;
+    padding: 220px 455px 103px 454px;
+
+    height: 424px;
+}
+     
+
+.footer-whole-div{
+    text-align: center;
+    align-content: center;
 }
 .footer-flex{
     display: flex;
     justify-content: space-evenly;
-    width:401px;
-    height: 24px;
-    margin:20px 520px 103px 520px;
+    
+    margin:20px 65px 0px 65px;
+     
     text-align: center;
+
+    
+    align-items: center;
 }
 .footer-flex,a{
     text-decoration: none;
     font-size:16px;
-    font-weight: 400px;
+    font-weight: 200px;
     color:rgba(137, 135, 161, 1);
 }
 
 .footer-text{
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 200px;
     color: rgba(137, 135, 161, 1);
 }
 
