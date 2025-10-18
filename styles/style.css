@@ -17,11 +17,10 @@
 * {
     margin: 0px;
     padding: 0px;
+    
    
 }
-#main{
-      background-color: rgba(78, 71, 255, 0.01);;
-}
+
 
 /* navbar design */
 
@@ -33,10 +32,13 @@
     align-items: center;
     padding-top: 50px;
 
-    /* max-width: 1440px; */
+    max-width: 1440px;
     gap: auto;
 
 
+}
+#main{
+    background-color:#D6DDED;
 }
 
 .nav-logo {
@@ -86,7 +88,7 @@
 .action-div{
     display:flex;
     justify-content: space-between;
-    /* margin-top: 98px; */
+    margin-top: 98px;
     gap:220px;
     align-items: center;
     margin-left: 141px;
@@ -238,6 +240,7 @@ span{
     margin:92.23px 150px 14px 150px;
     align-items: center;
     padding:200px 0px 200px 0px;
+    gap:auto;
 }
 .greeting{
     font-size: 97px;
@@ -291,6 +294,8 @@ textarea::placeholder{
 }
 .footer{
     text-align: center;
+    background-color: #FFFFFF;
+    text-align: center;
 }
 .footer-flex{
     display: flex;
@@ -298,11 +303,19 @@ textarea::placeholder{
     width:401px;
     height: 24px;
     margin:20px 520px 103px 520px;
+    text-align: center;
+}
+.footer-flex,a{
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 400px;
+    color:rgba(137, 135, 161, 1);
 }
 
-footer-text{
+.footer-text{
     font-size: 16px;
     font-weight: 400px;
+    color: rgba(137, 135, 161, 1);
 }
 
 
