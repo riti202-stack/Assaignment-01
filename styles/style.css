@@ -269,7 +269,7 @@ label{
     font-size: 18px;
     font-weight: 500px;
 }
- #textarea{
+textarea{
     width: 497px;
     height: 137px;
     border: none;
